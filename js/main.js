@@ -14,6 +14,7 @@ function debounce(func, wait) {
 }
 
 
+
 // スムーススクロール（※通常）
 $(window).on("load resize", debounce(function() {
 	var hash = location.hash;
